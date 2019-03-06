@@ -1,0 +1,336 @@
+
+@@font-face {
+  font-family: 'RuslanDisplay';
+  src: url('fonts/RuslanDisplay-webfont.eot');
+  src: url('fonts/RuslanDisplay-webfont.eot?#iefix') format(embedded-opentype),
+       url('fonts/RuslanDisplay-webfont.woff2') format('woff2'),
+       url('fonts/RuslanDisplay-webfont.woff') format('woff'),
+       url('fonts/RuslanDisplay-webfont.tff') format('truetype'),
+       url('fonts/RuslanDisplay-webfont.svg#RuslanDisplay') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+h1,
+h2 {
+    color: blue;
+    font-family: 'Ruslan Display', cursive;
+}
+
+p {
+    color: white;
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header,
+footer {
+    background-color: darkcyan;
+    padding: 10px 5px;
+}
+
+.name {
+
+    color: green;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.main-nav a {
+    display: block;
+    text-transform: uppercase;
+    background: rgba(255, 215, 0, 0.5);
+    padding: 7px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+.main-nav a:hover {
+    color: white;
+    background-color: brown;
+    border: 2px dotted yellow;
+    transform: scale(0.9);
+}
+
+.profile-image {
+    max-width: 70%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding-bottom: 1.25em;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.footer-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-name {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 1em;
+    float: left;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.footer-nav,
+#footer-top {
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    float: right;
+}
+
+#footer-top {
+    background: rgba(255, 215, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#footer-home,
+#footer-portfolio,
+#footer-contact,
+#footer-skills {
+    display: none;
+}
+
+/*---Float Clearfix---*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*--Media Queries-----*/
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    h1 {
+        color: yellow;
+        font-family: 'Ruslan Display', cursive;
+        font-size: 2em;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-image: url(../images/laptop17.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+        color: white;
+    }
+
+    .name {
+        display: block;
+
+    }
+
+    .main-nav {
+        text-align: center;
+        display: block;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 4px;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .profile-image {
+        float: right;
+        width: 40%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+
+    header p {
+        text-align: left;
+        margin-top: 0;
+        padding-left: 10px;
+        overflow-x: hidden;
+    }
+
+    #skills {
+        background-image: url(../images/background13.jpg);
+        background-size: cover;
+        background-position: right center;
+        background-attachment: fixed;
+        margin-bottom: -20px;
+        padding: 30px;
+    }
+
+    .skill-section {
+        width: 33.33%;
+    }
+
+
+    #portfolio {
+        background-image: url(../images/laptop17.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    section {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+    section p {
+        padding-right: 5px;
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    #contact {
+        border: 1px solid white;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    footer {
+        background-color: darkcyan;
+        padding-top: 15px;
+    }
+
+    footer p {
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
+        font-size: 1.25rem;
+    }
+
+
+    .footer-nav {
+        float: right;
+        margin-right: 15px;
+        margin-top: 3px;
+    }
+
+    #footer-name {
+        margin-left: 15px;
+    }
+
+    #footer-home,
+    #footer-portfolio,
+    #footer-contact,
+    #footer-skills {
+        text-align: right;
+        display: inline-block;
+        font-size: .9rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-right: 4px;
+        margin-left: 8px;
+        background: rgba(255, 215, 0, 0.5);
+        padding: 5px 20px;
+        border-radius: 10px;
+    }
+
+
+    #footer-top {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    .name {
+        float: left;
+        font-size: 1.25em;
+        margin: 0;
+        display: block;
+        padding: 20px
+    }
+
+    .main-nav {
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+    section {
+        width: 33.33%;
+        padding: 10px;
+    }
+
+    .skills {
+        width: 20%;
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    footer {
+        padding-bottom: 0;
+    }
+
+}
