@@ -173,7 +173,6 @@ footer {
     .name {
         display: block;
         font-size: 3.1em;
-        text-shadow: 20px;
     }
 
     .main-nav {
@@ -310,7 +309,6 @@ footer {
         margin: 0;
         display: block;
         padding: 20px;
-        text-shadow: 25px;
     }
 
     .main-nav {
