@@ -8,11 +8,15 @@ body {
     font: normal 1em/1.6 'Montserrat', sans-serif;
     background: grey;
 }
+h1 {
+  text-align: center;
+}
 
 h2 {
     color: blue;
     font-family: 'Ruslan Display', cursive;
     font-size: 1.2em;
+    text-align: center;
 }
 
 p {
