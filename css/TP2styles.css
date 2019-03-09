@@ -5,6 +5,12 @@
 }
 
 body {
+    font: normal 1em/1.6 'Lato', sans-serif;
+    background: grey;
+}
+
+h1,
+h2 {
   @font-face {
     font-family: 'RuslanDisplay';
     src: url('fonts/RuslanDisplay-webfont.eot');
@@ -16,26 +22,6 @@ body {
 
     font-weight: normal;
     font-style: normal;
-
-  }
-
-  @font-face {
-    font-family: 'FontAwesome';
-    src: url('fonts/fontawesome-webfont.eot');
-    src: url('fonts/fontawesome-webfont.eot?#iefix') format(embedded-opentype),
-         url('fonts/fontawesome-webfont.woff2') format('woff2'),
-         url('fonts/fontawesome-webfont.woff') format('woff'),
-         url('fonts/fontawesome-webfont.tff') format('truetype'),
-         url('fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
-
-    text-align: center;
-    line-height: 1.5;
-    margin: 0 auto;
-    background-color: gray;
-}
-
-h1,
-h2 {
     color: blue;
     font-family: 'Ruslan Display', cursive;
 }
