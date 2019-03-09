@@ -10,15 +10,6 @@ body {
 }
 
 h2 {
-  @font-face {
-    font-family: 'RuslanDisplay';
-    src: url('fonts/RuslanDisplay-webfont.eot');
-    src: url('fonts/RuslanDisplay-webfont.eot?#iefix') format(embedded-opentype),
-         url('fonts/RuslanDisplay-webfont.woff2') format('woff2'),
-         url('fonts/RuslanDisplay-webfont.woff') format('woff'),
-         url('fonts/RuslanDisplay-webfont.tff') format('truetype'),
-         url('fonts/RuslanDisplay-webfont.svg#RuslanDisplay') format('svg');
-
     font-weight: normal;
     font-style: normal;
     color: blue;
