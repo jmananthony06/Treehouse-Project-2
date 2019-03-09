@@ -111,7 +111,7 @@ footer {
     float: left;
     text-transform: capitalize;
     margin-top: 30px;
-    text-shadow: 8em;
+    text-shadow: 20px;
 }
 
 .footer-nav,
@@ -173,7 +173,7 @@ footer {
     .name {
         display: block;
         font-size: 3.1em;
-        text-shadow: 5.9em;
+        text-shadow: 20px;
     }
 
     .main-nav {
@@ -310,7 +310,7 @@ footer {
         margin: 0;
         display: block;
         padding: 20px;
-        text-shadow: 6.9em;
+        text-shadow: 25px;
     }
 
     .main-nav {
