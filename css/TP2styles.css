@@ -25,6 +25,7 @@ h1 {
 p {
     color: white;
     font-size: 1em;
+    padding: 0 1em;
 }
 
 img {
@@ -146,7 +147,7 @@ footer {
     h1 {
         color: yellow;
         font-family: 'Ruslan Display', cursive;
-        font-size: 2em;
+        font-size: 4.1em;
     }
 
     header {
@@ -161,6 +162,8 @@ footer {
 
     .name {
         display: block;
+        font-size: 3.1em;
+        text-shadow: 5.9em;
 
     }
 
@@ -290,10 +293,11 @@ footer {
 
     .name {
         float: left;
-        font-size: 1.25em;
+        font-size: 4.25em;
         margin: 0;
         display: block;
-        padding: 20px
+        padding: 20px;
+        text-shadow: 6.9em;
     }
 
     .main-nav {
