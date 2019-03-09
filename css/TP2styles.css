@@ -8,7 +8,9 @@ body {
     font: normal 1em/1.6 'Montserrat', sans-serif;
     background: grey;
 }
-h1 {
+h1,
+h2,
+p {
   text-align: center;
 }
 
@@ -45,7 +47,6 @@ footer {
 }
 
 .name {
-
     color: green;
     text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 }
@@ -99,12 +100,18 @@ footer {
     padding-right: 10px;
 }
 
+.skill-section img {
+  width: 100px;
+  height: 125px;
+}
+
 #footer-name {
     font-family: 'Ruslan Display', cursive;
     font-size: 1em;
     float: left;
     text-transform: capitalize;
     margin-top: 30px;
+    text-shadow: 8em;
 }
 
 .footer-nav,
@@ -126,6 +133,10 @@ footer {
 #footer-contact,
 #footer-skills {
     display: none;
+}
+
+#contact {
+  text-align: center;
 }
 
 /*---Float Clearfix---*/
@@ -153,7 +164,6 @@ footer {
     header {
         padding-left: 10px;
         padding-right: 10px;
-        background-image: url(../images/laptop17.jpg);
         background-size: cover;
         background-attachment: fixed;
         background-position: bottom;
