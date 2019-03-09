@@ -147,7 +147,7 @@ footer {
     h1 {
         color: yellow;
         font-family: 'Ruslan Display', cursive;
-        font-size: 4.1em;
+        font-size: 3.1em;
     }
 
     header {
@@ -164,7 +164,6 @@ footer {
         display: block;
         font-size: 3.1em;
         text-shadow: 5.9em;
-
     }
 
     .main-nav {
@@ -185,7 +184,6 @@ footer {
 
     .profile-image {
         float: right;
-        width: 40%;
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 30px;
@@ -198,6 +196,11 @@ footer {
         padding-left: 10px;
         overflow-x: hidden;
     }
+
+.about-me p,
+.about-me .profile-image{
+  width: 50%;
+}
 
     #skills {
         background-image: url(../images/background13.jpg);
