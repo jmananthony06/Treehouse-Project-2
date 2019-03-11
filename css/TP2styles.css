@@ -21,7 +21,7 @@ p {
     text-align: center;
 }
 .main-nav {
-  display: inline-block;
+  display: block;
 }
 
 p {
